@@ -19,7 +19,7 @@ class String
     # sentences << self.replace('!',' ').replace('?',' ').replace('.',' ').split
     # sentences.count
     sentences = []
-    sentences = re.split('[?!.]', self)
+    sentences = self.split('[?!.]')
     sentences.count
   end
 end
