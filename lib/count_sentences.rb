@@ -14,7 +14,7 @@ class String
     self.include?("!")
   end
 
-  def count_sentences
+  def count_sentences(count_sentences)
     count_sentences = []
       count_sentences << self.split('?','!','.')
     count_sentences.count
