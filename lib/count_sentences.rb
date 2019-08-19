@@ -15,8 +15,6 @@ class String
   end
 
   def count_sentences
-#    sentences = []
-      self.replace('!',' ').replace('?',' ').replace('.',' ').split.count
-#    sentences.count
+    self.replace('!',' ').replace('?',' ').replace('.',' ').split.count
   end
 end
