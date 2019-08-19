@@ -18,9 +18,7 @@ class String
     # sentences = []
     # sentences << self.replace('!',' ').replace('?',' ').replace('.',' ').split
     # sentences.count
-
     sentences = []
-
     self.split('!').each do |sentence_excl|
       sentence_excl.split('.').each do |sentence_excl_per|
         sentence_excl_per.split('?').each do |final_sentence|
