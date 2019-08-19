@@ -18,8 +18,15 @@ class String
     # sentences = []
     # sentences << self.replace('!',' ').replace('?',' ').replace('.',' ').split
     # sentences.count
+    self = "This is a string! It has three sentences. Right?"
+
+
+    
     sentences = []
-    sentences = self.split('[?!.]')
+
+    sentences = self.split('?')
+
+    
     sentences.count
   end
 end
