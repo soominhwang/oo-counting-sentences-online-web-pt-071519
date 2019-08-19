@@ -21,12 +21,12 @@ class String
     self = "This is a string! It has three sentences. Right?"
 
 
-    
+
     sentences = []
 
     sentences = self.split('?')
 
-    
+
     sentences.count
   end
 end
